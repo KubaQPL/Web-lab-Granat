@@ -1,0 +1,39 @@
+body {
+  background: purple
+}
+
+.search_box{
+  margin: auto;
+  margin-top: 3%;
+  width: 90%;
+  text-align: center;
+}
+
+input{
+  background-color: yellowgreen;
+  border: black;
+  border-bottom: 1px solid black;
+  color: white;
+  padding: 1px 20px 5px 2px;
+  font-size: 18px;
+  margin-right: 10px;
+  outline: none;
+}
+
+::placeholder{
+  color: white;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+button{
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 5px 20px; 
+  color: white;
+  letter-spacing: 1px;
+  font-size: 15px;
+  margin-left: 20px;
+  outline: none;
+  cursor: pointer;
+}
